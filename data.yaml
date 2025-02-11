@@ -1,0 +1,13 @@
+path: ../datasets
+train: images/train
+val: images/val
+
+nc: 1  # Number of classes (e.g., 1 for a single skeleton category)
+names:
+  0: implant
+
+kpt_shape:
+- 6
+- 3
+
+kpt_names: ['1', '2', '3', '4', '5', '6']
